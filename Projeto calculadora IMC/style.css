@@ -95,6 +95,6 @@ body{
 .dark-icon i{
     font-size: 3rem;
 }
-.dark.bg-dark{
+body.bg-dark{
     background-color: #13131312;
 }

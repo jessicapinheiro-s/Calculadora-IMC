@@ -59,3 +59,8 @@ function limpar() {
 }
 let btLimpar = document.getElementById('btLimpar');
 btLimpar.addEventListener('click', limpar);
+
+document.getElementById('bx bxs-circle').addEventListener(  'click', function darkness(){
+    let body = document.getElementsByClassName('body');
+    body.classList.toggle('bg-dark');
+})
