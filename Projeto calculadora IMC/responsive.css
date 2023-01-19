@@ -13,6 +13,9 @@
     .entrada input{
         width: 60%;
     }
+    .dark{
+        margin: auto;
+    }
     #btCalcular,
     #btLimpar{
         padding: 10px;

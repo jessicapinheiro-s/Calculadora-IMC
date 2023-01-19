@@ -81,3 +81,20 @@ body{
 #btCalcular:hover{
     background-color: #93b8fd;
 }
+.dark{
+    width: 250px;
+    border: 1px solid red;
+    padding: 20px;
+}
+.dark-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(117, 105, 105);
+}
+.dark-icon i{
+    font-size: 3rem;
+}
+.dark.bg-dark{
+    background-color: #13131312;
+}
