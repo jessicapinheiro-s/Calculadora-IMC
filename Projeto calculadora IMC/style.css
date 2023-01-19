@@ -60,7 +60,7 @@ body{
     border-radius: 8px;
     font-weight: 600;
 }
-input{
+.entrada input{
     border: none;
     outline: none;
     padding: 5px;
