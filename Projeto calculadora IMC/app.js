@@ -60,7 +60,8 @@ function limpar() {
 let btLimpar = document.getElementById('btLimpar');
 btLimpar.addEventListener('click', limpar);
 
-document.getElementById('bx bxs-circle').addEventListener(  'click', function darkness(){
-    let body = document.getElementsByClassName('body');
-    body.classList.toggle('bg-dark');
+document.getElementById('bx bxs-circle').addEventListener( 'click', function darkness(){
+    document.querySelector('.body').classList.toggle('bg-dark');
+    document.querySelector('.calculadora').classList.toggle('bg-dark-calculadora');
+    document.querySelector('.dark').classList.toggle('bg-dark');
 })

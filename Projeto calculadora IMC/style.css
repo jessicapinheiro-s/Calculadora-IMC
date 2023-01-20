@@ -82,20 +82,29 @@ body{
     background-color: #93b8fd;
 }
 .dark{
-    width: 250px;
-    border: 1px solid red;
+    width: 100px;
     padding: 20px;
     margin: 20px auto;
+    border: 1px solid #121212;
 }
 .dark-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(117, 105, 105);
 }
 .dark-icon i{
     font-size: 3rem;
 }
-body.bg-dark{
-    background-color: #13131312;
+.body.bg-dark{
+    background-color: #131313;
+}
+.bg-dark-calculadora{
+    background-color: #272727;
+    box-shadow: none;
+    color: #e5e5e5;
+}
+.dark.bg-dark{
+    background-color: #272727;
+    border: 1px solid #e5e5e5;
+    color: #fff;
 }
